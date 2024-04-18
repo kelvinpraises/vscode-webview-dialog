@@ -9,7 +9,6 @@
 	"license": "MIT",
 	"main": "out/index.js",
 	"scripts": {
-		"install": "yarn-required",
 		"compile": "tsc --build",
 		"compile-test": "tsc --build test",
 		"pack-test": "yarn --cwd test run pack",
@@ -18,7 +17,6 @@
 	"devDependencies": {
 		"@types/node": "^12.11.7",
 		"@types/vscode": "^1.39.0",
-		"typescript": "^3.6.4",
-		"yarn-required": "^0.0.6"
+		"typescript": "^3.6.4"
 	}
 }
