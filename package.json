@@ -10,9 +10,7 @@
 	"main": "out/index.js",
 	"scripts": {
 		"compile": "tsc --build",
-		"compile-test": "tsc --build test",
-		"pack-test": "yarn --cwd test run pack",
-		"postinstall": "yarn --cwd test"
+		"compile-test": "tsc --build test"
 	},
 	"devDependencies": {
 		"@types/node": "^12.11.7",
